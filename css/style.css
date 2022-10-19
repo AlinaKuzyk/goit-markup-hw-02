@@ -72,7 +72,7 @@ color: var(--accent-color);
 }
 
 .link-auth:hover,
-.linl-auth:focus {
+.link-auth:focus {
    color: var(--accent-color);
 }
 
@@ -116,7 +116,7 @@ color: var(--accent-color);
 color: var(--primary-title-color);
 font-weight: 700;
 font-size: 36px;
-line-height: 1.17px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
 }
@@ -137,7 +137,7 @@ letter-spacing: 0.03em;
 .features-list .text {
    color: var(--text-paragraph-color);
    font-size: 14px;
-   line-height: 1.71px;
+   line-height: 1.71;
    letter-spacing: 0.03em;
 }
 
@@ -154,7 +154,7 @@ letter-spacing: 0.03em;
    color: var(--primary-title-color);
    font-weight: 500;
    font-size: 16px;
-   line-height: 1.19px;
+   line-height: 1.19;
    text-align: center;
    letter-spacing: 0.03em;
 }
@@ -170,11 +170,7 @@ letter-spacing: 0.03em;
 /* стиль портфоліо */
 
 /* стиль кнопок */
-.list .all,
-.list .website,
-.list .app,
-.list .design,
-.list .marketing {
+.list .filter {
 background-color: var(--secondary-bg-color);
 cursor: pointer;
 font-family: inherit;
@@ -185,16 +181,8 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-.list .all:hover,
-.list .all:focus,
-.list .website:hover,
-.list .website:focus,
-.list .app:hover,
-.list .app:focus,
-.list .design:hover,
-.list .design:focus,
-.list .marketing:hover,
-.list .marketing:focus {
+.list .filter:hover,
+.list .filter:focus {
    background-color: var(--accent-color);
    color: var(--hero-title-color);
 }
